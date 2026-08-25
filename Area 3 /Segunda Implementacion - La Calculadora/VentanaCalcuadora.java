@@ -42,13 +42,12 @@ public class VentanaCalcuadora extends JFrame {
 				try {
 					int valor1 = Integer.parseInt(num1.getText());
 					int valor2 = Integer.parseInt(num2.getText());
-
 					int resultado1 = Suma(valor1, valor2);
 
 					resultado.setText("El resultado de la suma es: " + resultado1);
 
 				} catch (NumberFormatException ex) {
-					resultado.setText("Introduce números válidos");
+					resultado.setText("Introduce numeros validos");
 				}
 			}
 		});
@@ -65,7 +64,7 @@ public class VentanaCalcuadora extends JFrame {
 					resultado.setText("El resultado de la resta es: " + resultado1);
 
 				} catch (NumberFormatException ex) {
-					resultado.setText("Introduce números válidos");
+					resultado.setText("Introduce numeros validos");
 				}
 			}
 
@@ -83,7 +82,7 @@ public class VentanaCalcuadora extends JFrame {
 					resultado.setText("El resultado de la multiplicacion es: " + resultado1);
 
 				} catch (NumberFormatException ex) {
-					resultado.setText("Introduce números válidos");
+					resultado.setText("Introduce numeros validos");
 				}
 			}
 
@@ -101,7 +100,7 @@ public class VentanaCalcuadora extends JFrame {
 					resultado.setText("El resultado de la division es: " + resultado1);
 
 				} catch (NumberFormatException ex) {
-					resultado.setText("Introduce números válidos");
+					resultado.setText("Introduce numeros validos");
 				}
 			}
 
